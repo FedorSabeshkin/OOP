@@ -44,6 +44,7 @@ Hod hod
 matchHitProtect(BodyPart bodyPartTargetForHit, BodyPart bodyPartTargetForProtect) - сопоставление 
 
 **Hod**  
+*Поля*  
 WarriorId beatingWarriorId    
 WarriorId protectiveWarriorId    
 BodyPart bodyPartTargetForHit  
