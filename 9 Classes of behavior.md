@@ -34,4 +34,17 @@ WarriorId Id - идентификатор бойца
   
 *Методы:*     
 hit(BodyPart bodyPartTarget) - наносит удар в заданную часть противника. Удар будет нанесен с имеющимся значением Power.  
-protect(BodyPart bodyPartTarget) - защищает заданную часть бойца от удара противника.
+protect(BodyPart bodyPartTarget) - защищает заданную часть бойца от удара противника.  
+
+**Battle**  
+*Поля*  
+Hod hod  
+
+*Методы:*   
+matchHitProtect(BodyPart bodyPartTargetForHit, BodyPart bodyPartTargetForProtect) - сопоставление 
+
+**Hod**  
+WarriorId beatingWarriorId    
+WarriorId protectiveWarriorId    
+BodyPart bodyPartTargetForHit  
+BodyPart bodyPartTargetForProtect  
