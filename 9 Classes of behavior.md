@@ -55,7 +55,9 @@ BodyPart bodyPartTargetForProtect - часть бойца, которую защ
 OwnerId ownerId - id владельца - боец/магазин    
 Health health  - единицы здоровья, которые будут добавлены бойцу  
 Power power - единицы силы, которые будут добавлены бойцу  
-  
+
+**OwnerId** -  id владельца - боец/магазин    
+
 **NPC**  
 *Поля*  
 WarriorId drivenWarriorId - id бойца, которым управляет NPC    
@@ -70,4 +72,14 @@ GameId gameId - id игры
 Time time - время, которое осталось провести в игре  
   
 *Методы*  
-checkInterrupt() - проверка возможности прерывания игры - если текущий бой уже закончен
+checkInterrupt() - проверка возможности прерывания игры - если текущий бой уже закончен    
+interrupt() - прерывания игры  
+
+**Shop**  
+*Поля*  
+OutfitMap outfits - обертка над HashMap где содержится товар и его цена  
+
+**OutfitMap**  
+OutfitId outfitId  
+Money price    
+Outfit outfit    
