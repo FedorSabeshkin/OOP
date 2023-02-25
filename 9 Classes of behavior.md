@@ -43,7 +43,7 @@ Hod hod  - класс хранящий данные о ходе
 *Методы:*   
 matchHitProtect(Hod hod) - сопоставление защиты и нападения бойцов. На нужное кол-во едениц уменьшает здоровье у защищавшегося игрока.  
 
-**Hod**  
+**Hod** - DTO с информацией о сделанном бойцами выборе во время хода  
 *Поля*  
 WarriorId beatingWarriorId  - id атакующего       
 WarriorId protectiveWarriorId - id защищающегося     
@@ -55,3 +55,9 @@ BodyPart bodyPartTargetForProtect - часть бойца, которую защ
 OwnerId ownerId - id владельца - боец/магазин    
 Health health  - единицы здоровья, которые будут добавлены бойцу  
 Power power - единицы силы, которые будут добавлены бойцу  
+  
+**NPC**  
+*Поля*  
+WarriorId drivenWarriorId - id бойца, которым управляет NPC  
+
+
