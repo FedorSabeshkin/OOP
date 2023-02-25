@@ -92,3 +92,13 @@ Integer value - числовое представление значения
 decrease(Money money) - уМеньшает силу на переданное кол-во единиц  
 increase(Money money) - уВеличивает силу на переданное кол-во единиц    
 toString() - показывает внутреннее числовое значение   
+
+**PersonanRoom**  
+*Поля*  
+WarriorId gamerId  
+Storage storage  
+Collection <PageLink> - список ссылок для перехода на другие экраны  
+
+**Formatter**    
+*Методы*  
+format(Data data, Pattern pattern)  - форматирует отчет по результату боя
