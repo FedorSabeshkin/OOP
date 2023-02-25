@@ -83,3 +83,12 @@ OutfitMap outfits - обертка над HashMap где содержится т
 OutfitId outfitId  
 Money price    
 Outfit outfit    
+
+**Money** - Обертка над числовым типом данных      
+*Поля:*    
+Integer value - числовое представление значения  
+
+*Методы:*    
+decrease(Money money) - уМеньшает силу на переданное кол-во единиц  
+increase(Money money) - уВеличивает силу на переданное кол-во единиц    
+toString() - показывает внутреннее числовое значение   
