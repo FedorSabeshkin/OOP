@@ -27,9 +27,9 @@ toString() - показывает внутреннее числовое знач
 
 **Warrior**  
 *Поля:*    
-Health health  
-Power power    
-Outfit outfis - обмундирование бойца     
+Health health  - здоровье  
+Power power    - сила  
+Outfit outfit - обмундирование бойца     
 WarriorId Id - идентификатор бойца    
   
 *Методы:*     
@@ -38,14 +38,20 @@ protect(BodyPart bodyPartTarget) - защищает заданную часть 
 
 **Battle**  
 *Поля*  
-Hod hod  
+Hod hod  - класс хранящий данные о ходе  
 
 *Методы:*   
-matchHitProtect(BodyPart bodyPartTargetForHit, BodyPart bodyPartTargetForProtect) - сопоставление 
+matchHitProtect(Hod hod) - сопоставление защиты и нападения бойцов. На нужное кол-во едениц уменьшает здоровье у защищавшегося игрока.  
 
 **Hod**  
 *Поля*  
-WarriorId beatingWarriorId    
-WarriorId protectiveWarriorId    
-BodyPart bodyPartTargetForHit  
-BodyPart bodyPartTargetForProtect  
+WarriorId beatingWarriorId  - id атакующего       
+WarriorId protectiveWarriorId - id защищающегося     
+BodyPart bodyPartTargetForHit - часть бойца которого атакуют  
+BodyPart bodyPartTargetForProtect - часть бойца, которую защищают    
+
+**Outfit**  
+*Поля*  
+OwnerId ownerId - id владельца - боец/магазин    
+Health health  - единицы здоровья, которые будут добавлены бойцу  
+Power power - единицы силы, которые будут добавлены бойцу  
