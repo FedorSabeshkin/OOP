@@ -10,7 +10,7 @@
 4. [Выделяем классы на уровне анализа.](https://github.com/FedorSabeshkin/OOP/blob/main/4%20analysis%20classes.md)
 5. [Классы реализации.](https://github.com/FedorSabeshkin/OOP/blob/main/5%20Classes%20Of%20Implementation.md)
 6. [Классы проектирования.](https://github.com/FedorSabeshkin/OOP/blob/main/6%20Design%20Classes.md)
-7. [Отфильтровав ранее выделенные АТД по специальным правилам проектирования.](https://github.com/FedorSabeshkin/OOP/blob/main/7%20Redundant%20classes.md)
+7. [Отфильтровываем ранее выделенные АТД по специальным правилам проектирования.](https://github.com/FedorSabeshkin/OOP/blob/main/7%20Redundant%20classes.md)
 8. [Разбиение на класстеры.](https://github.com/FedorSabeshkin/OOP/blob/main/8%20Class%20Clusters.md)
 9. [Задание каркаса поведения классов.](https://github.com/FedorSabeshkin/OOP/blob/main/9%20Classes%20of%20behavior.md)
 10. [Развиваем описание системы. Увязываем с конкретными технологиями реализации. Добавляем сценарии тест кейсов.](https://github.com/FedorSabeshkin/OOP/blob/main/10%20Shaping%20the%20architecture.md)
