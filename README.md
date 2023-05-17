@@ -4,7 +4,7 @@
 
 Продвигаясь от 1 до 11 файла, вы можете увидеть, какие шаги были выполнены. 
 
-1. Составления [ТЗ](https://github.com/FedorSabeshkin/OOP/blob/main/1%20Task.md) на разработку игры  .
+1. Составления [ТЗ](https://github.com/FedorSabeshkin/OOP/blob/main/1%20Task.md) на разработку игры .
 2. [Краткое описание основных сущностей.](https://github.com/FedorSabeshkin/OOP/blob/main/2%20Short%20description.md) Что бы на этом этапе сфокусироваться на главном, стоит ограниться 5-7 штуками.
 3. [Определяем границы разрабатываемой системы.](https://github.com/FedorSabeshkin/OOP/blob/main/3%20Boundaries%20of%20the%20system.md)
 4. [Выделяем классы на уровне анализа.](https://github.com/FedorSabeshkin/OOP/blob/main/4%20analysis%20classes.md)
