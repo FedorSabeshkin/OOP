@@ -16,4 +16,3 @@
 10. [Развиваем описание системы. Увязываем с конкретными технологиями реализации. Добавляем сценарии тест кейсов.](https://github.com/FedorSabeshkin/OOP/blob/main/10%20Shaping%20the%20architecture.md)
 11. [Классы для повторного использования в грядущих проектах.](https://github.com/FedorSabeshkin/OOP/blob/main/11%20Reusable%20classes%20for%20future%20projects.md)
 
-Реализация игры находится в этом [репозитории.](https://github.com/FedorSabeshkin/Game)
